@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="timer_bg_color">#ff232323</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="dimiss_button_background">#ffea1411</color>
+    <color name="restart_button_background">#ff64dd17</color>
+    <color name="open_button_background">#ff2186ec</color>
+
+</resources>

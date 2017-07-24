@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/timer_bg_color">
+
+    <LinearLayout
+        android:id="@id/timer_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/timerdone_header_margintop"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@id/current_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/timerdone_current_time_textsize" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="@string/timer_Title"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/timerdone_default_label_textsize" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@id/frame_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timer_header"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@id/restart_button"
+            android:layout_width="@dimen/restart_button_width"
+            android:layout_height="@dimen/restart_button_height"
+            android:layout_marginRight="@dimen/restart_button_marginright"
+            android:layout_marginTop="@dimen/restart_button_margintop"
+            android:background="@drawable/timerdone_restart_bg"
+            android:text="@string/restart_button"
+            android:textSize="15.0sp" />
+
+        <LinearLayout
+            android:id="@id/frame_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@id/alarm_animation"
+                android:layout_width="@dimen/alarm_animation_width"
+                android:layout_height="@dimen/alarm_animation_height"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/alarm_animation_0" />
+
+            <Button
+                android:id="@id/open_button"
+                android:layout_width="@dimen/open_button_width"
+                android:layout_height="@dimen/open_button_height"
+                android:layout_marginTop="@dimen/open_button_margintop"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/timerdone_open_bg"
+                android:text="@string/open_button"
+                android:textSize="15.0sp" />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@id/dimiss_button"
+            android:layout_width="@dimen/dimiss_button_width"
+            android:layout_height="@dimen/dimiss_button_height"
+            android:layout_marginLeft="@dimen/dismiss_button_marginleft"
+            android:layout_marginTop="@dimen/dismiss_button_margintop"
+            android:background="@drawable/timerdone_dismiss_bg"
+            android:text="@string/dimiss_button"
+            android:textSize="15.0sp" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

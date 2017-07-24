@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="0dp"
+    android:background="@color/timer_bg_color"
+    android:gravity="center_horizontal"
+    android:id="@id/timer_main_layout"
+    tools:context="com.madtechcorp.timer.TimerActivity">
+
+    <TextView
+        android:id="@id/timer_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:text="@string/timer_Title"
+        android:textColor="@android:color/white"
+        android:textSize="20.0sp" />
+
+    <ImageView
+        android:id="@id/timer_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/timer_time_bg_off" />
+
+    <RelativeLayout
+        android:id="@id/middle_button_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@id/stopwatch_laptime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@id/stopwatch_laptime_milli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/stopwatch_laptime"
+            android:gravity="center"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@id/start_button"
+        android:layout_width="120dp"
+        android:layout_height="32.0dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/timer_start_button_bg"
+        android:text="@string/Timer_Start_Button"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@id/reset_button"
+        android:layout_width="60dp"
+        android:layout_height="32.0dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/start_button"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/timer_reset_button_bg"
+        android:text="@string/Timer_Reset_Button"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="14.0sp" />
+
+    <Button
+        android:id="@id/stop_button"
+        android:layout_width="59dp"
+        android:layout_height="32.0dip"
+        android:layout_alignEnd="@id/start_button"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="1dp"
+        android:background="@drawable/timer_stop_button_bg"
+        android:text="@string/Timer_Stop_Button"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="14.0sp" />
+
+    <Button
+        android:id="@id/continue_button"
+        android:layout_width="59dp"
+        android:layout_height="32.0dip"
+        android:layout_alignEnd="@id/start_button"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="1dp"
+        android:background="@drawable/timer_continue_button_bg"
+        android:text="@string/Timer_Restart_Button"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="14.0sp" />
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="timer_main_layout">false</item>
+    <item type="id" name="timer_title">false</item>
+    <item type="id" name="stopwatch_laptime">false</item>
+    <item type="id" name="stopwatch_laptime_milli">false</item>
+    <item type="id" name="middle_button_layout">false</item>
+    <item type="id" name="start_button">false</item>
+    <item type="id" name="continue_button">false</item>
+    <item type="id" name="reset_button">false</item>
+    <item type="id" name="stop_button">false</item>
+    <item type="id" name="timer_bg">false</item>
+    <item type="id" name="timePicker">false</item>
+    <item type="id" name="ok_button">false</item>
+    <item type="id" name="timer_header">false</item>
+    <item type="id" name="current_time">false</item>
+    <item type="id" name="alarm_animation">false</item>
+    <item type="id" name="anchor">false</item>
+    <item type="id" name="restart_button">false</item>
+    <item type="id" name="dimiss_button">false</item>
+    <item type="id" name="frame_layout">false</item>
+    <item type="id" name="open_button">false</item>
+
+
+
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/timer_bg_color">
+
+
+    <TimePicker
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@id/timePicker"
+        android:timePickerMode="spinner"
+        android:layout_marginTop="25dp" />
+
+    <Button
+        android:id="@id/ok_button"
+        android:layout_width="60dp"
+        android:layout_height="32.0dip"
+        android:background="@drawable/timer_start_button_bg"
+        android:layout_marginBottom="10dp"
+        android:text="@string/Timer_Ok_Button"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white" />
+
+
+</LinearLayout>

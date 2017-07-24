@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Timer</string>
+    <string name="timer_Title">Timer</string>
+    <string name="Timer_Start_Button">Start</string>
+    <string name="Timer_Restart_Button">Continue</string>
+    <string name="Timer_Reset_Button">Reset</string>
+    <string name="Timer_Stop_Button">Pause</string>
+    <string name="Timer_Ok_Button">Set</string>
+    <string name="restart_button">Restart</string>
+    <string name="dimiss_button">Dismiss</string>
+    <string name="open_button">Timer</string>
+
+</resources>

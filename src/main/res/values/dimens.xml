@@ -1,0 +1,22 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="timer_mins_size">28.0sp</dimen>
+    <dimen name="timer_milli_size">21.299988sp</dimen>
+    <dimen name="timerdone_default_label_textsize">18.7sp</dimen>
+    <dimen name="timerdone_current_time_textsize">18.7sp</dimen>
+    <dimen name="timerdone_header_margintop">10.0dip</dimen>
+    <dimen name="alarm_animation_width">60.0dip</dimen>
+    <dimen name="alarm_animation_height">66.69998dip</dimen>
+    <dimen name="dimiss_button_height">60.0dip</dimen>
+    <dimen name="dimiss_button_width">60.0dip</dimen>
+    <dimen name="restart_button_width">60.0dip</dimen>
+    <dimen name="restart_button_height">60.0dip</dimen>
+    <dimen name="open_button_width">60.0dip</dimen>
+    <dimen name="open_button_height">60.0dip</dimen>
+    <dimen name="restart_button_marginright">5.0dip</dimen>
+    <dimen name="dismiss_button_marginleft">5.0dip</dimen>
+    <dimen name="restart_button_margintop">30.0dip</dimen>
+    <dimen name="dismiss_button_margintop">30.0dip</dimen>
+    <dimen name="open_button_margintop">5.0dip</dimen>
+
+</resources>
